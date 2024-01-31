@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIESKY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"/> 
+</head>
+<body>
+<div class="nav">
+<h1>MOVIE SKY</h1>
+</div>
+<div class="container">
+<div class="book-container">
+    <h2>LOVE AND LUST</h2>
+    <h5>DANIEL BROOK</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, quis praesentium! Error quisquam temporibus similique ipsum cupiditate velit asperiores non beatae et quidem sint, numquam omnis id fugit harum incidunt!</p>
+    <button onclick="deletebook(event)">Delete</button>
+</div>
+</div>
+<div class="pop-overlay"></div>
+<div class="popup-box">
+    <h2>Add book</h2>
+    <form>
+        <input type="text" placeholder="Book Title" id="Book-title">
+        <input type="text" placeholder="Book Author" id="Book-author">
+        <textarea placeholder="Short Description" id="description"></textarea>
+        <button id="addbook">ADD</button>
+        <button id="cancel-popup">CANCEL</button>
+    </form>
+</div>
+<button class="add" id="add-popup">+</button>
+<script src="script.js"></script>
+</body>
+</html>
